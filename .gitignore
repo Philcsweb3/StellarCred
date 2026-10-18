@@ -7,35 +7,13 @@ node_modules
 .next
 dist
 
-# Local settings
-.soroban
-.stellar
-.env.local
-
-# Local tooling config (not committed)
-.kilo/
-
-# Benchmark output (local results; see BENCHMARKS.md for documented figures)
-benchmark_results.txt
-
-# Proptest regression files
-proptest-regressions/
-
-# macOS
-.DS_Store
-# Rust's output directory
-target
-
-# Node
-node_modules
-.pnpm-store
-.next
-dist
+# Coverage output
+coverage
+.nyc_output
 
 # Local settings
 .soroban
 .stellar
-.env.local
 
 # Deployment artifacts (local; use git for version control)
 deployment-manifests/
@@ -49,3 +27,7 @@ proptest-regressions/
 
 # macOS
 .DS_Store
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
